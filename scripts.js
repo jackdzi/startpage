@@ -112,6 +112,11 @@ const bookmarks = [
         label: "ChatGPT",
         url: "https://chatgpt.com/",
       },
+      {
+        id: "github",
+        label: "Github",
+        url: "https://github.com/",
+      },
     ],
   },
 ];
