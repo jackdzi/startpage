@@ -93,7 +93,7 @@ const bookmarks = [
       {
         id: "axler",
         label: "Axler",
-        url: "file:///home/jdzialo/Documents/School/Comp_182/Axler_4th_Edition.pdf",
+        url: "readings/Axler_4th_Edition.pdf",
         download: true,
       },
     ],
