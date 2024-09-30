@@ -169,3 +169,43 @@ const injectBookmarks = () => {
 };
 
 injectBookmarks();
+
+$(document).ready(async function() {
+  var quote;
+  var author;
+  
+  async function getQuote(){    
+    var forismaticAPI = "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?";
+    
+    // Fetch data using a promise-based approach
+    return new Promise((resolve, reject) => {
+      $.getJSON(forismaticAPI, function(data) {
+        if (data) {
+          resolve(data);
+        } else {
+          reject("Error fetching data");
+        }
+      });
+    });
+  }
+
+  try {
+    // Wait for the API response
+    let data = await getQuote();
+    while (data.quoteText.length >= 200) {
+      data = await getQuote();
+    }
+    quote = data.quoteText;
+    author = data.quoteAuthor;
+
+    // Update the DOM with the fetched quote and author
+    $(".quote").text(quote);
+    $(".author").text("-" + author);
+
+    // Log the quote to the console
+    console.log(quote);
+  } catch (error) {
+    console.error(error);
+  }
+});
+
