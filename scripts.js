@@ -117,6 +117,11 @@ const bookmarks = [
         label: "Github",
         url: "https://github.com/",
       },
+      {
+        id: "youtube",
+        label: "Youtube",
+        url: "https://youtube.com/",
+      }
     ],
   },
 ];
