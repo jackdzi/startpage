@@ -63,7 +63,6 @@ const bookmarks = [
         label: "Math 354",
         url: "https://canvas.rice.edu/courses/70782/files",
       },
-
       {
         id: "410",
         label: "Stat 405",
@@ -80,9 +79,9 @@ const bookmarks = [
         url: "https://canvas.rice.edu/courses/69686/assignments",
       },
       {
-        id: "405",
-        label: "Stat 405",
-        url: "https://canvas.rice.edu/courses/68029/modules",
+        id: "415",
+        label: "Stat 410",
+        url: "https://canvas.rice.edu/courses/70809",
       },
     ],
   },
@@ -94,6 +93,12 @@ const bookmarks = [
         id: "axler",
         label: "Axler",
         url: "readings/Axler_4th_Edition.pdf",
+        download: true,
+      },
+      {
+        id: "comp",
+        label: "Discrete",
+        url: "readings/Kenneth Rosen - Discrete Mathematics and Its Applications, seventh edition-McGraw-Hill Science_Engineering_Math (2011).pdf",
         download: true,
       },
     ],
