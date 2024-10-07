@@ -123,10 +123,15 @@ const bookmarks = [
         url: "https://github.com/",
       },
       {
+        id: "drive",
+        label: "Drive",
+        url: "https://drive.google.com/drive/u/0/home",
+      },
+      {
         id: "youtube",
         label: "Youtube",
         url: "https://youtube.com/",
-      }
+      },
     ],
   },
 ];
@@ -180,16 +185,17 @@ const injectBookmarks = () => {
 
 injectBookmarks();
 
-$(document).ready(async function() {
+$(document).ready(async function () {
   var quote;
   var author;
-  
-  async function getQuote(){    
-    var forismaticAPI = "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?";
-    
+
+  async function getQuote() {
+    var forismaticAPI =
+      "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?";
+
     // Fetch data using a promise-based approach
     return new Promise((resolve, reject) => {
-      $.getJSON(forismaticAPI, function(data) {
+      $.getJSON(forismaticAPI, function (data) {
         if (data) {
           resolve(data);
         } else {
@@ -218,4 +224,3 @@ $(document).ready(async function() {
     console.error(error);
   }
 });
-
