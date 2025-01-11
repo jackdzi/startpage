@@ -191,7 +191,7 @@ $(document).ready(async function () {
 
   async function getQuote() {
     var forismaticAPI =
-      "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?";
+      "https://quotes-api-self.vercel.app/quote";
 
     // Fetch data using a promise-based approach
     return new Promise((resolve, reject) => {
@@ -208,11 +208,11 @@ $(document).ready(async function () {
   try {
     // Wait for the API response
     let data = await getQuote();
-    while (data.quoteText.length >= 200) {
+    while (data.quote.length >= 200) {
       data = await getQuote();
     }
-    quote = data.quoteText;
-    author = data.quoteAuthor;
+    quote = data.quote;
+    author = data.author;
 
     // Update the DOM with the fetched quote and author
     $(".quote").text(quote);
