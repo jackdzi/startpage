@@ -59,28 +59,28 @@ const bookmarks = [
     label: "class pages",
     bookmarks: [
       {
-        id: "354",
-        label: "Math 354",
-        url: "https://canvas.rice.edu/courses/70782/files",
+        id: "215",
+        label: "Comp 215",
+        url: "https://canvas.rice.edu/courses/74190",
+      },
+      {
+        id: "330",
+        label: "Comp 330",
+        url: "https://canvas.rice.edu/courses/74194",
+      },
+      {
+        id: "350",
+        label: "Cmor 350",
+        url: "https://canvas.rice.edu/courses/74599/assignments",
       },
       {
         id: "410",
-        label: "Stat 405",
-        url: "https://canvas.rice.edu/courses/68029/modules",
+        label: "Math 410",
+        url: "https://canvas.rice.edu/courses/74253",
       },
       {
-        id: "333",
-        label: "Reli 333",
-        url: "https://canvas.rice.edu/courses/68691/files",
-      },
-      {
-        id: "182",
-        label: "Comp 182",
-        url: "https://canvas.rice.edu/courses/69686/assignments",
-      },
-      {
-        id: "415",
-        label: "Stat 410",
+        id: "421",
+        label: "Cmor 421",
         url: "https://canvas.rice.edu/courses/70809",
       },
     ],
