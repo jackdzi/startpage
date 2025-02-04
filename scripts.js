@@ -81,7 +81,7 @@ const bookmarks = [
       {
         id: "421",
         label: "Cmor 421",
-        url: "https://canvas.rice.edu/courses/70809",
+        url: "https://canvas.rice.edu/courses/73352",
       },
     ],
   },
