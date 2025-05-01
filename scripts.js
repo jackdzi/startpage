@@ -1,53 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 
-/**
- * Search function
- */
-
-const searchInput = document.querySelector("#searchbar > input");
-const searchButton = document.querySelector("#searchbar > button");
-
-const lookup = {
-  "/": "/",
-  deepl: "https://deepl.com/",
-  reddit: "https://reddit.com/",
-  maps: "https://maps.google.com/",
-};
-const engine = "google";
-const engineUrls = {
-  deepl: "https://www.deepl.com/translator#-/-/{query}",
-  duckduckgo: "https://duckduckgo.com/?q={query}",
-  ecosia: "https://www.ecosia.org/search?q={query}",
-  google: "https://www.google.com/search?q={query}",
-  startpage: "https://www.startpage.com/search?q={query}",
-  youtube: "https://www.youtube.com/results?q={query}",
-};
-
-const isWebUrl = (value) => {
-  try {
-    const url = new URL(value);
-    return url.protocol === "http:" || url.protocol === "https:";
-  } catch {
-    return false;
-  }
-};
-
-const getTargetUrl = (value) => {
-  if (isWebUrl(value)) return value;
-  if (lookup[value]) return lookup[value];
-  const url = engineUrls[engine] ?? engine;
-  return url.replace("{query}", value);
-};
-
-const search = () => {
-  const value = searchInput.value;
-  const targetUrl = getTargetUrl(value);
-  window.open(targetUrl, "_self");
-};
-
-searchInput.onkeyup = (event) => event.key === "Enter" && search();
-searchButton.onclick = search;
 
 /**
  * inject bookmarks into html
