@@ -29,7 +29,7 @@ const bookmarks = [
       {
         id: "344",
         label: "Anth 344",
-        url: "https://canvas.rice.edu/courses/79221/files",
+        url: "https://canvas.rice.edu/courses/79221/modules",
       },
       {
         id: "141",
