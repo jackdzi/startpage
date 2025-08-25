@@ -38,55 +38,55 @@ const bookmarks = [
       },
     ],
   },
-  {
-    id: "aab",
-    label: "readings",
-    bookmarks: [
-      {
-        id: "axler",
-        label: "Axler",
-        url: "readings/Axler_4th_Edition.pdf",
-        download: true,
-      },
-      {
-        id: "comp",
-        label: "Discrete",
-        url: "readings/Kenneth Rosen - Discrete Mathematics and Its Applications, seventh edition-McGraw-Hill Science_Engineering_Math (2011).pdf",
-        download: true,
-      },
-    ],
-  },
-  {
-    id: "aaa",
-    label: "other",
-    bookmarks: [
-      {
-        id: "gmail",
-        label: "Gmail",
-        url: "https://mail.google.com/mail/u/0/",
-      },
-      {
-        id: "chat",
-        label: "ChatGPT",
-        url: "https://chatgpt.com/",
-      },
-      {
-        id: "github",
-        label: "Github",
-        url: "https://github.com/",
-      },
-      {
-        id: "drive",
-        label: "Drive",
-        url: "https://drive.google.com/drive/u/0/home",
-      },
-      {
-        id: "youtube",
-        label: "Youtube",
-        url: "https://youtube.com/",
-      },
-    ],
-  },
+  // {
+  //   id: "aab",
+  //   label: "readings",
+  //   bookmarks: [
+  //     {
+  //       id: "axler",
+  //       label: "Axler",
+  //       url: "readings/Axler_4th_Edition.pdf",
+  //       download: true,
+  //     },
+  //     {
+  //       id: "comp",
+  //       label: "Discrete",
+  //       url: "readings/Kenneth Rosen - Discrete Mathematics and Its Applications, seventh edition-McGraw-Hill Science_Engineering_Math (2011).pdf",
+  //       download: true,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "aaa",
+  //   label: "other",
+  //   bookmarks: [
+  //     {
+  //       id: "gmail",
+  //       label: "Gmail",
+  //       url: "https://mail.google.com/mail/u/0/",
+  //     },
+  //     {
+  //       id: "chat",
+  //       label: "ChatGPT",
+  //       url: "https://chatgpt.com/",
+  //     },
+  //     {
+  //       id: "github",
+  //       label: "Github",
+  //       url: "https://github.com/",
+  //     },
+  //     {
+  //       id: "drive",
+  //       label: "Drive",
+  //       url: "https://drive.google.com/drive/u/0/home",
+  //     },
+  //     {
+  //       id: "youtube",
+  //       label: "Youtube",
+  //       url: "https://youtube.com/",
+  //     },
+  //   ],
+  // },
 ];
 
 const createGroupContainer = () => {
