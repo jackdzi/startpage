@@ -28,6 +28,17 @@ const bookmarks = [
       },
     ],
   },
+  {
+    id: "aab",
+    label: "websites",
+    bookmarks: [
+      {
+        id: "fren_textbook",
+        label: "French Textbook",
+        url: "https://laits.utexas.edu/fi/",
+      }
+    ]
+  }
   // {
   //   id: "aab",
   //   label: "readings",
