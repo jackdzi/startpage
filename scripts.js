@@ -12,29 +12,19 @@ const bookmarks = [
     label: "class pages",
     bookmarks: [
       {
-        id: "382",
-        label: "Comp 382",
-        url: "https://canvas.rice.edu/courses/79436/wiki",
+        id: "312",
+        label: "Comp 312",
+        url: "https://canvas.rice.edu/courses/86272"
       },
       {
-        id: "318",
-        label: "Comp 318",
-        url: "https://canvas.rice.edu/courses/78898",
+        id: "142",
+        label: "Fren 142",
+        url: "https://canvas.rice.edu/courses/87537",
       },
       {
-        id: "222",
-        label: "Comp 222",
-        url: "https://canvas.rice.edu/courses/79538",
-      },
-      {
-        id: "344",
-        label: "Anth 344",
-        url: "https://canvas.rice.edu/courses/79221/modules",
-      },
-      {
-        id: "141",
-        label: "Fren 141",
-        url: "https://canvas.rice.edu/courses/80056",
+        id: "325",
+        label: "Fren 325",
+        url: "https://canvas.rice.edu/courses/87534",
       },
     ],
   },
