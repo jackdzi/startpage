@@ -17,6 +17,11 @@ const bookmarks = [
         url: "https://canvas.rice.edu/courses/86272"
       },
       {
+        id: "321",
+        label: "Comp 321",
+        url: "https://canvas.rice.edu/courses/84362"
+      },
+      {
         id: "142",
         label: "Fren 142",
         url: "https://canvas.rice.edu/courses/87537",
