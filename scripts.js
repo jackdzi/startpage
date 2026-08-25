@@ -33,13 +33,8 @@ const bookmarks = [
       },
       {
         id: "263",
-        label: "Fren 263",
+        label: "FREN 263",
         url: "https://canvas.rice.edu/courses/92537",
-      },
-      {
-        id: "325",
-        label: "Fren 325",
-        url: "https://canvas.rice.edu/courses/87534",
       },
     ],
   },
