@@ -12,24 +12,29 @@ const bookmarks = [
     label: "class pages",
     bookmarks: [
       {
-        id: "312",
-        label: "Comp 312",
-        url: "https://canvas.rice.edu/courses/86272"
+        id: "432",
+        label: "COMP 432",
+        url: "https://canvas.rice.edu/courses/90104"
       },
       {
-        id: "321",
-        label: "Comp 321",
-        url: "https://www.clear.rice.edu/comp321/"
+        id: "429",
+        label: "COMP 429",
+        url: "https://www.clear.rice.edu/comp429/sched.html"
       },
       {
-        id: "418",
-        label: "Comp 418",
-        url: "https://canvas.rice.edu/courses/84121"
+        id: "480",
+        label: "COMP 480",
+        url: "https://cs.rice.edu/~as143/COMP480_580_Fall26/index.html"
       },
       {
-        id: "142",
-        label: "Fren 142",
-        url: "https://canvas.rice.edu/courses/87537",
+        id: "387",
+        label: "ENGL 387",
+        url: "https://canvas.rice.edu/courses/92306"
+      },
+      {
+        id: "263",
+        label: "Fren 263",
+        url: "https://canvas.rice.edu/courses/92537",
       },
       {
         id: "325",
