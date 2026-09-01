@@ -19,12 +19,12 @@ const bookmarks = [
       {
         id: "429",
         label: "COMP 429",
-        url: "https://www.clear.rice.edu/comp429/sched.html"
+        url: "https://canvas.rice.edu/courses/90670"
       },
       {
         id: "480",
         label: "COMP 480",
-        url: "https://cs.rice.edu/~as143/COMP480_580_Fall26/index.html"
+        url: "https://canvas.rice.edu/courses/90123"
       },
       {
         id: "387",
